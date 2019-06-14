@@ -1,0 +1,46 @@
+{
+  "name": "easy-responsive-container",
+  "version": "0.1.1",
+  "description": "A small lib to have a container that supports Bootstrap responsiveness using hooks (???)",
+  "main": "lib/index.js",
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build",
+    "test": "npm run build && jest lib/*.test.*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OussamaRomdhane/easy-responsive-container.git"
+  },
+  "keywords": [
+    "responsive",
+    "bootstrap",
+    "container",
+    "component"
+  ],
+  "author": "Oussama Romdhane",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/OussamaRomdhane/easy-responsive-container/issues"
+  },
+  "homepage": "https://github.com/OussamaRomdhane/easy-responsive-container#readme",
+  "dependencies": {
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  },
+  "devDependencies": {
+    "@types/enzyme": "^3.9.3",
+    "@types/enzyme-adapter-react-16": "^1.0.5",
+    "@types/jest": "^24.0.13",
+    "@types/react": "^16.8.19",
+    "@types/react-dom": "^16.8.4",
+    "enzyme": "^3.10.0",
+    "enzyme-adapter-react-16": "^1.14.0",
+    "typescript": "^3.5.1"
+  },
+  "jest": {
+    "setupFiles": [
+      "<rootDir>/lib/setupTests.js"
+    ]
+  }
+}
